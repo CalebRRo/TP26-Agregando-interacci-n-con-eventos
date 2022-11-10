@@ -42,8 +42,8 @@ window.onload = function(){
        menu.classList.remove("mostrar")
     });
 
-    logo.addEventListener("mouseover", ()=>{
+  /*   logo.addEventListener("mouseover", ()=>{
         fondo.classList.toggle("fondo")
         enlace.style.color = "#E51B3E"
-    })
+    }) */
 }

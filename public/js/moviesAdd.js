@@ -12,8 +12,11 @@ window.onload = function(){
     let estadoSecreto = 0;
 
     titulo.addEventListener("mouseover",()=>{
-         titulo.style.color = "#7f7f7f"
+         titulo.style.color = "gray"
     })
+    titulo.addEventListener("mouseout",()=>{
+        titulo.style.color = "red"
+   })
 
     const checkKey = (key) => {
         switch (true) {
@@ -49,5 +52,7 @@ window.onload = function(){
     imputTitulo.addEventListener("keyup", (e) => {
         checkKey(e.key)
     })
+
+    
 
 }
